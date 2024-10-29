@@ -1,4 +1,4 @@
-import React, {  useRef, useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { useCustomContext } from '../service/ServiceProvider';
 
 
@@ -66,7 +66,6 @@ const ChatBot = () => {
             userInput.length ?
               <button onClick={handleSendMessage} className="    px-4 py-2    bg-[#305BD4] text-white">
                 Sent
-
               </button> :
               ""
           }
