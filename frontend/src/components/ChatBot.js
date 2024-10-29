@@ -18,7 +18,7 @@ const ChatBot = () => {
 
       <div className=" bot rounded-xl shadow-lg w-[350px]   max-w-md overflow-hidden bg-[#F7F8FC] ">
 
-        <h2 className="bg-color text-white px-3 text-lg font-bold py-3 rounded-t-lg">Chatbot</h2>
+        <h2 className="nav-bg-color text-white px-3 text-lg font-bold py-3 rounded-t-lg">Chatbot</h2>
 
 
         <div
@@ -35,8 +35,8 @@ const ChatBot = () => {
 
               <div
                 className={`max-w-[75%] p-3  ${msg.sender === 'user'
-                  ? ' mess   text-black rounded-s-xl'
-                  : ' mess   text-black rounded-e-xl'
+                  ? ' mess-bubblle   text-black rounded-s-xl'
+                  : ' mess-bubblle   text-black rounded-e-xl'
                   }`}
               >
                 {msg.text}
