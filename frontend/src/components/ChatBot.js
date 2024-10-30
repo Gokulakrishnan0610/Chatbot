@@ -52,7 +52,7 @@ const ChatBot = () => {
         </div>
 
 
-        <form className=" h-fit flex border-  rounded-xl overflow-hidden border-[1.5px] border-gray-300 bg-[#F7F8FC] ">
+        <form className=" h-fit flex border-  rounded-xl overflow-hidden  bg- ">
 
           <input
             type="text"

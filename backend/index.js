@@ -17,6 +17,12 @@ const getBotAnswer = (input) => {
 };
 
 
+app.get('/api/defaultMessage', (req, res) => {
+ 
+
+ 
+  return res.json({ botreply: "Hi there! How can I help you today?" });
+});
 app.post('/api/input', (req, res) => {
   const userInput = req.body.input;
 
