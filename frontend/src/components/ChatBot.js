@@ -16,7 +16,7 @@ const ChatBot = () => {
   return (
     <div className="flex items-center justify-center h-screen  ">
 
-      <div className=" bot rounded-xl shadow-lg w-[350px]   max-w-md overflow-hidden bg-[#F7F8FC] ">
+      <div className=" bot rounded-xl border  w-[350px]   max-w-md overflow-hidden bg-[#F7F8FC] ">
 
         <h2 className="nav-bg-color text-white px-3 text-lg font-bold py-3 rounded-t-lg">Chatbot</h2>
 
@@ -52,14 +52,14 @@ const ChatBot = () => {
         </div>
 
 
-        <form className=" h-fit flex border-  rounded-xl overflow-hidden  bg- ">
+        <form className=" h-fit flex border-  rounded-x overflow-hidden  bg- ">
 
           <input
             type="text"
             value={userInput}
             onChange={(e) => setUserInput(e.target.value)}
             placeholder="Type the message..."
-            className="flex w-full   border-none  py-2 px-4 focus:outline-none "
+            className="flex w-full    border-none  py-2 px-4 focus:outline-none "
           />
 
           {
